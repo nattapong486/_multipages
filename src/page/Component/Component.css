@@ -1,0 +1,54 @@
+.app-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+  
+  }
+  
+  .header {
+    text-align: center;
+    background-color: grey;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .counter, .timer, .add, .temperature {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .counter, .timer, .add {
+    grid-column: span 1;
+  }
+  
+  .temperature {
+    grid-column: span 3;
+    text-align: center;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    background-color: grey;
+    color:  black;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;  
+    margin-bottom: 20px;
+    
+  }

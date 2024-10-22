@@ -1,0 +1,28 @@
+.tem-container {
+    border: 1px solid black;
+    padding: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+
+.tem-title {
+    color: blueviolet;
+}   
+
+
+.tem-display {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+}
+
+
+
+.tem-variables {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.5rem;
+    justify-content: center;
+}
